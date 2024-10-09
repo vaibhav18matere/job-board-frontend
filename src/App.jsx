@@ -1,11 +1,7 @@
-import './App.css'
-function App() {
+import "./App.css";
 
-  return (
-    <>
-      <h1 className='text-center text-2xl'>Job Board</h1>
-    </>
-  )
+function App() {
+  return <h1 className="text-red-500">Job Board</h1>;
 }
 
-export default App
+export default App;
