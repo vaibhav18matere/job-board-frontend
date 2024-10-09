@@ -1,7 +1,14 @@
 import "./App.css";
+import { Navbar } from "./components/shared/Navbar";
+import { Footer } from "./components/shared/Footer";
 
 function App() {
-  return <h1 className="text-red-500">Job Board</h1>;
+  return (
+    <>
+      <Navbar />
+      <Footer />
+    </>
+  );
 }
 
 export default App;
